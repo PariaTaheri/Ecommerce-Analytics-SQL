@@ -36,3 +36,21 @@ Erstellung der Datenbank mit SQL Server Management Studio
 Vorbereitung der Datenbank für die Tabellenerstellung
 
 In diesem Schritt werden noch keine Daten importiert.
+
+
+
+---
+
+### ایجاد دیتابیس پروژه
+
+در این مرحله، دیتابیس پروژه در **SQL Server** ایجاد می‌شود.  
+این دیتابیس پایه‌ی تمام مراحل بعدی پروژه خواهد بود.
+
+**نام دیتابیس:**
+`EcommerceAnalytics`
+
+دستور SQL:
+
+```sql
+CREATE DATABASE EcommerceAnalytics;
+GO
