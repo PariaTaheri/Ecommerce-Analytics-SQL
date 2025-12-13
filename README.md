@@ -165,3 +165,32 @@ Folder Structure to Create:
 05_Analytics
 docs
 
+
+
+
+
+🇮🇷 فارسی
+
+در این پوشه فایل‌های دیتاست پروژه نگهداری می‌شوند.
+دیتاست استفاده‌شده مربوط به Brazilian E-Commerce Public Dataset by Olist است که شامل داده‌های واقعی یک فروشگاه آنلاین می‌باشد.
+
+این پوشه فقط برای نگهداری و توضیح دیتاست است و هیچ پردازش یا تحلیلی در این مرحله انجام نمی‌شود.
+در مراحل بعد، داده‌ها به SQL Server وارد شده و تحلیل‌ها انجام خواهند شد.
+
+🇬🇧 English
+
+This folder contains the dataset files used in this project.
+The dataset is the Brazilian E-Commerce Public Dataset by Olist, which includes real-world data from an online marketplace.
+
+At this stage, the folder is only used for storing and describing the dataset.
+No data processing or analysis is performed here.
+Data will be imported into SQL Server in later steps.
+
+🇩🇪 Deutsch
+
+Dieser Ordner enthält die Datensatzdateien, die in diesem Projekt verwendet werden.
+Der verwendete Datensatz ist das Brazilian E-Commerce Public Dataset von Olist mit realen Daten eines Online-Marktplatzes.
+
+In diesem Schritt dient der Ordner ausschließlich der Ablage und Beschreibung der Daten.
+Es findet noch keine Verarbeitung oder Analyse statt.
+Die Daten werden in späteren Schritten in SQL Server importiert.
