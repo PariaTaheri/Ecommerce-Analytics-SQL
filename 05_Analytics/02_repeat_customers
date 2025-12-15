@@ -1,0 +1,26 @@
+--6 Count orders per customer
+-- Identifies repeat customers
+--مشتری‌هایی که بیش از یک سفارش داشته‌اند → مشتری وفادار.
+-- Step : Identify repeat customers
+-- Finds customers who placed more than one order
+
+SELECT
+    customer_id,
+    COUNT(order_id) AS total_orders
+FROM dbo.olist_orders_dataset
+GROUP BY customer_id
+HAVING COUNT(order_id) > 1
+ORDER BY total_orders DESC;
+
+
+-- Step 6: Identify repeat customers
+-- Customers who placed more than one order
+--این کُد مشتری‌هایی را پیدا می‌کند که بیش از یک سفارش ثبت کرده‌اند.
+-- خروجی خالی بود → یعنی اکثر مشتری‌ها فقط یک بار خرید کرده‌اند ).
+SELECT
+    customer_id,
+    COUNT(order_id) AS total_orders
+FROM dbo.olist_orders_dataset
+GROUP BY customer_id
+HAVING COUNT(order_id) > 1
+ORDER BY total_orders DESC;
